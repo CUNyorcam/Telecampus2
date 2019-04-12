@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "Terpel moodle Mobile",
   "version": "3.6.0",
-  "description": "The official app for Moodle.",
+  "description": "Aplicación oficial para logearse al moodle de terpel.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "CUN.",
+    "email": "aei@cun.edu.co"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -79,7 +79,7 @@
     "@types/promise.prototype.finally": "2.0.2",
     "chart.js": "2.7.2",
     "com-darryncampbell-cordova-plugin-intent": "1.1.1",
-    "cordova-android": "7.1.2",
+    "cordova-android": "^8.0.0",
     "cordova-android-support-gradle-release": "2.0.1",
     "cordova-clipboard": "1.2.1",
     "cordova-ios": "4.5.5",
@@ -100,9 +100,7 @@
     "cordova-plugin-screen-orientation": "3.0.1",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "2.4.2",
-    "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-zip": "3.1.0",
-    "cordova-sqlite-storage": "2.6.0",
     "es6-promise-plugin": "4.2.2",
     "font-awesome": "4.7.0",
     "ionic-angular": "3.9.2",
@@ -144,7 +142,7 @@
     "plugins": {
       "com-darryncampbell-cordova-plugin-intent": {},
       "cordova-android-support-gradle-release": {
-        "ANDROID_SUPPORT_VERSION": "27.1.0"
+        "ANDROID_SUPPORT_VERSION": "28.0.0"
       },
       "cordova-clipboard": {},
       "cordova-plugin-badge": {},
